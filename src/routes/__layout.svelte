@@ -1,10 +1,13 @@
 <script>
   import "../app.scss";
   import SideBar from "$lib/SideBar.svelte";
+  import TopBar from "$lib/TopBar.svelte";
+
 </script>
 
-<SideBar />
+<!-- <SideBar /> -->
+<TopBar />
 
-<div class="main">
+<div class="">
   <slot />
 </div>
